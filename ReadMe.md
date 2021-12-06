@@ -2,6 +2,7 @@
 
 ## By Mishael Ratemo
 
+#Live [Demo](https://mishaelratemo.github.io/animate_html_elements_on_scroll/)
 ## Project Description
  This is a simple project showing how you an animate html elements smooothly on scrolling down the page. it shows different animations applied for more info find in [reference](https://github.com/michalsnik/aos) the documentation
 
