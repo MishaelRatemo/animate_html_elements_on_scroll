@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float on Scroll</title>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<style>
+    div{
+        margin-bottom: 23em;
+    }
+</style>
+<body>
+    
+    <main>
+        <div class="container bg-dark text-light">
+            <h1 class=" text-center " >My 1st content</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati, rerum tempora voluptatum nesciunt laborum officiis esse harum, tempore officia laboriosam vel dignissimos, soluta animi culpa sint inventore minima deleniti!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, soluta quasi repellendus inventore illum ipsam dolores, voluptatibus atque deleniti doloremque in sed dolorum libero! Provident, neque culpa. Assumenda, porro molestiae!
+
+            </p>
+        </div>
+        <div class="container bg-info " data-aos="slide-up" data-aos-duration="3000">
+            <h1 class=" text-center " >My 2nd content</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati, rerum tempora voluptatum nesciunt laborum officiis esse harum, tempore officia laboriosam vel dignissimos, soluta animi culpa sint inventore minima deleniti!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, soluta quasi repellendus inventore illum ipsam dolores, voluptatibus atque deleniti doloremque in sed dolorum libero! Provident, neque culpa. Assumenda, porro molestiae!
+                
+            </p>
+        </div>
+        <div class="container bg-primary" data-aos="zoom-in-up" data-aos-duration="1000" >
+            <h1 class=" text-center " >Zoom content</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati, rerum tempora voluptatum nesciunt laborum officiis esse harum, tempore officia laboriosam vel dignissimos, soluta animi culpa sint inventore minima deleniti!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, soluta quasi repellendus inventore illum ipsam dolores, voluptatibus atque deleniti doloremque in sed dolorum libero! Provident, neque culpa. Assumenda, porro molestiae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid est deleniti libero ducimus minus aspernatur reiciendis odit sint ratione, necessitatibus, nesciunt magni facilis vitae ipsum fugiat optio assumenda. Expedita?
+            </p>
+        </div>
+        <div class=" container d-flex justify-content-between " >
+            <div class="left bg-success" data-aos="flip-right" data-aos-duration="2500" data-aos-delay="50" >
+                <h1>Flip right content </h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatibus dolor labore numquam laboriosam in quis voluptates doloremque cumque quisquam aliquam repellendus aut culpa dignissimos perspiciatis recusandae, provident eligendi? Optio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur porro dolorum voluptas ullam tempora! Adipisci, ea, totam, placeat soluta maxime minima pariatur consectetur ab velit magnam omnis maiores? Id, nobis!
+            </div>
+            <div class="right bg-warning" data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
+                <h1>Flip left content </h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus voluptatum. Unde, dicta! Dolorem impedit corporis iure quas vel, saepe ut, provident modi aliquam quisquam unde, dolorum tempore fugiat! Tempora.
+                Cupiditate dolore quos quam neque quod. Possimus voluptatem nemo iusto officia, earum ut eos tempora dolorem quaerat magni maxime aut eius dolore repudiandae, temporibus nesciunt fuga fugiat libero sed. Eius.
+                Maiores corrupti unde exercitationem et? Nostrum sapiente vitae sequi minus quasi sunt in nisi vel corporis aperiam laudantium fugiat, enim expedita, voluptatem dicta iusto mollitia saepe, aliquam rerum facere doloribus.
+            </div>
+
+        </div>
+        <div class="container bg-primary" data-aos="fade-up"  data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out" >
+            <h1 class=" text-center " >Float up content</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati, rerum tempora voluptatum nesciunt laborum officiis esse harum, tempore officia laboriosam vel dignissimos, soluta animi culpa sint inventore minima deleniti!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, soluta quasi repellendus inventore illum ipsam dolores, voluptatibus atque deleniti doloremque in sed dolorum libero! Provident, neque culpa. Assumenda, porro molestiae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, aliquid est deleniti libero ducimus minus aspernatur reiciendis odit sint ratione, necessitatibus, nesciunt magni facilis vitae ipsum fugiat optio assumenda. Expedita?
+            </p>
+        </div>
+        <div class=" container d-flex justify-content-between " >
+            <div class="left bg-success w-50" data-aos="fade-right"data-aos-duration="3000" >
+                <h1>Float content right</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At voluptatibus dolor labore numquam laboriosam in quis voluptates doloremque cumque quisquam aliquam repellendus aut culpa dignissimos perspiciatis recusandae, provident eligendi? Optio?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur porro dolorum voluptas ullam tempora! Adipisci, ea, totam, placeat soluta maxime minima pariatur consectetur ab velit magnam omnis maiores? Id, nobis!
+            </div>
+            <div class="right bg-warning w-50" data-aos="fade-left" data-aos-duration="2000">
+                <h1>Float content left</h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus voluptatum. Unde, dicta! Dolorem impedit corporis iure quas vel, saepe ut, provident modi aliquam quisquam unde, dolorum tempore fugiat! Tempora.
+                Cupiditate dolore quos quam neque quod. Possimus voluptatem nemo iusto officia, earum ut eos tempora dolorem quaerat magni maxime aut eius dolore repudiandae, temporibus nesciunt fuga fugiat libero sed. Eius.
+                Maiores corrupti unde exercitationem et? Nostrum sapiente vitae sequi minus quasi sunt in nisi vel corporis aperiam laudantium fugiat, enim expedita, voluptatem dicta iusto mollitia saepe, aliquam rerum facere doloribus.
+            </div>
+
+        </div>
+    </main>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration:2000
+      });
+    </script>
+  
+    
+</body>
+</html>
